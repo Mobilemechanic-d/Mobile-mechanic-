@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Mechanic Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .cta {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #28a745;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .cta:hover {
+      background: #218838;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mobile Mechanic Services</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Fast, reliable, and professional mobile mechanic services. We come to you —
+      whether at home, work, or roadside — to get you back on the road quickly.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Engine Diagnostics</li>
+      <li>Brake Repairs</li>
+      <li>Battery Replacement</li>
+      <li>Oil Changes</li>
+      <li>Roadside Assistance</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp / Call: <strong>+44 7765 746763</strong></p>
+    <a class="cta" href="https://wa.me/447765746763" target="_blank">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mobile Mechanic Services. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
